@@ -116,12 +116,23 @@ void quiz()  //Quiz function defination.
     scanf("%d",&ch);
     switch (ch)
     {
-        case 4:
+        case 1:
+        	printf("\n\t\tComing Soon!  Sorry..");
+        	goto xy;
+        case 2:
+        	printf("\n\t\tComing Soon!  Sorry..");
+        	goto xy;
+        case 3:
+        	printf("\n\t\tComing Soon!  Sorry..");
+        	goto xy;
+		case 4:
             printf("\t\t\tRULES of the QUIZ GAME:-");
             printf("\n\t\t\t-> There are total 5 quizs related to your quiz.");
             printf("\n\t\t\t-> Every correct answer will give you 1 point.");
             printf("\n\t\t\t-> Result will be shown you at the end.");
             printf("\n\t\t\t-> Happy Playing\n");
+            printf("\n\n\t\t\tEnter Any Key to Exit: ");
+            getch();
             goto xy;
         case 0:
             break;
