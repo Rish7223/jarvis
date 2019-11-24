@@ -9,9 +9,9 @@ char name[50];
 void main()
 {
     int pass,ch,ch2;
-    printf("\n\t\t====================================================");
-    printf("\n\t\t|      Hello: Welcome to jarvis version 1.         | ");
-    printf("\n\t\t====================================================");
+    printf("\n\t\t ==================================================");
+    printf("\n\t\t|      Hello: Welcome to jarvis version 1.         |");
+    printf("\n\t\t ==================================================");
     xy:
     printf("\n\n\t\tEnter Password or 0 to exit: ");  //asking to enter password.
     scanf("%d",&pass);
@@ -20,12 +20,11 @@ void main()
 		system("cls");
 		printf("\n\t\t\tEnter Your name: ");
 		scanf("%s",name);
+		system("cls");
 		printf("\n\n\t\t\tWelcome %s",name);
-		printf("\n\t\t\tPress Any key to Enter: ");
-		getch();
         yz:
-        system("cls");
-        printf("\n\n\n\t\t\tMain Menu");
+        printf("\n\t\t\t=====================================================");
+        printf("\n\n\t\t\tMain Menu");
         printf("\n\t\t\t1. Calculator\n\t\t\t2. Play Quiz");
         printf("\n\t\t\t0. Exit!");
         printf("\n\t\t\tEnter 1 for Calculation and 2 for Play a quiz game: ");

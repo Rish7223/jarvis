@@ -5,9 +5,9 @@ void quiz()  //Quiz function defination.
     int ch;
     xy:
     system("cls");
-    printf("\n\t\t\t\t=============================================");
+    printf("\n\t\t\t\t ===========================================");
     printf("\n\t\t\t\t|            Welcome to Quiz Show           |");
-    printf("\n\t\t\t\t=============================================");
+    printf("\n\t\t\t\t ===========================================");
     printf("\n\n\n\t\t\t1. Computer Quiz\n\t\t\t2. Space Quiz");
     printf("\n\t\t\t3. General Quiz\n\t\t\t4. Help/Rules\n\t\t\t0. Exit");
     printf("\n\t\t\tEnter your choise: ");
